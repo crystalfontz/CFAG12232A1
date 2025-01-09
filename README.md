@@ -1,7 +1,9 @@
 # CFA12232A1 Example Code
 
 ## Information
-Crystalfontz CFAG12232A1 Family example firmware
+Example firmware for Crystalfontz CFAG12232A1 Family 
+- [CFAG12232-TMI-TJ](https://www.crystalfontz.com/product/cfag12232A1tmitj)
+- [CFAG12232-YYH-TJ](https://www.crystalfontz.com/product/cfag12232A1yyhtj)
 
 Code written for Seeeduino 3.3v (important!), an open-source 3.3v capable Arduino clone.
 
@@ -41,3 +43,8 @@ Additionally, refer to the datasheet for proper backlight connection
 |  DATA BUS LINE (DB5)             | D5        | PORTD |  15         |
 |  DATA BUS LINE (DB6)             | D6        | PORTD |  16         |
 |  DATA BUS LINE (DB7)             | D7        | PORTD |  17         |
+
+## Example explanation
+This example highlights the ability to display several fullscreen demos as well as the splash screen for this product family
+
+This splash screen was converted to code using our utility [Image2Code](https://github.com/crystalfontz/Image2Code)
