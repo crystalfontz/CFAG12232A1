@@ -1,4 +1,4 @@
-# CFA12232A1 Example Code
+# CFAG12232A1 Example Code
 
 ## Information
 Example firmware for Crystalfontz CFAG12232A1 Family 
