@@ -2,10 +2,10 @@
 
 ## Information
 Example firmware for Crystalfontz CFAG12232A1 Family 
-- [CFAG12232-TMI-TJ](https://www.crystalfontz.com/product/cfag12232A1tmitj)
-- [CFAG12232-YYH-TJ](https://www.crystalfontz.com/product/cfag12232A1yyhtj)
+- [CFAG12232A1-TMI-TJ](https://www.crystalfontz.com/product/cfag12232A1tmitj)
+- [CFAG12232A1-YYH-TJ](https://www.crystalfontz.com/product/cfag12232A1yyhtj)
 
-Code written for Seeeduino 3.3v (important!), an open-source 3.3v capable Arduino clone.
+Code written for Seeeduino, an open-source (important!) 3.3v capable Arduino clone.
 
 https://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
 
@@ -16,7 +16,7 @@ The controller is a Wuxi i-core AiP31520
 
 https://www.crystalfontz.com/controllers/Wuxi/AiP31520/
 
-Please refer the display datasheet before connecting to a power source.
+Please refer to the display datasheet before connecting to a power source.
 
 Further, a variable resistor connection is required for contrast adjustment and its connection scheme has been outlined in the datasheet.
 
