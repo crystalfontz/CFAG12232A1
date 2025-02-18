@@ -7,9 +7,9 @@ Example firmware for Crystalfontz CFAG12232A1 Family
 
 Code written for Seeeduino, an open-source (important!) 3.3v capable Arduino clone.
 
-https://www.seeedstudio.com/Seeeduino-V4.2-p-2517.html
+The Seeeduino v4.3 can be found [Here](https://www.crystalfontz.com/product/cfapn15062)
 
-https://github.com/SeeedDocument/SeeeduinoV4/raw/master/resources/Seeeduino_v4.2_sch.pdf
+[Schematics](https://www.crystalfontz.com/products/document/5136/Seeeduino_v4.3_SCH_220805.pdf) and [Build Files](https://www.crystalfontz.com/products/document/4078/Seeeduino_v4.3_SCH_PCB_220805.zip) can be found on the product page linked above.
 
 ## Controller
 The controller is a Wuxi i-core AiP31520
