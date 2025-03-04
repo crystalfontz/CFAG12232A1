@@ -7,7 +7,7 @@ Example firmware for Crystalfontz CFAG12232A1 Family
 
 Code written for Seeeduino, an open-source (important!) 3.3v capable Arduino clone.
 
-The Seeeduino v4.3 can be found [Here](https://www.crystalfontz.com/product/cfapn15062)
+The Seeeduino can be found [Here](https://www.crystalfontz.com/product/cfapn15062)
 
 [Schematics](https://www.crystalfontz.com/products/document/5136/Seeeduino_v4.3_SCH_220805.pdf) and [Build Files](https://www.crystalfontz.com/products/document/4078/Seeeduino_v4.3_SCH_PCB_220805.zip) can be found on the product page linked above.
 
@@ -26,23 +26,23 @@ Additionally, refer to the datasheet for proper backlight connection
 |  Function - 6800 Parallel        | Seeeduino | Port  | Display pin |
 | -------------------------------: |:----------|:-----:|:-----------:|
 |                                  |**Power Lines**                  |
-|  Power 3.3V                      | 3.3V      |       |  2          |
-|  Ground                          | GND       |       |  1          |
+|  Power 3.3V (YYH) 5.0V (TMI)     | 3.3 or 5 V |       |  2          |
+|  Ground                          | GND        |       |  1          |
 |                                  |**Control Lines**                |
-|  Data/Instruction (A0)           | D8        | PORTB |  4          |
-|  Read/Write       (R/W)          | D9        | PORTB |  11         |
-|  Chip enable IC1  (CS1)          | D10       | PORTB |  5          |
-|  Chip enable IC2  (CS2)          | D11       | PORTB |  6          |
-|  Reset            (RES)          | D12       | PORTB |  18         |
+|  Data/Instruction (A0)           | D8         | PORTB |  4          |
+|  Read/Write       (R/W)          | D9         | PORTB |  11         |
+|  Chip enable IC1  (CS1)          | D10        | PORTB |  5          |
+|  Chip enable IC2  (CS2)          | D11        | PORTB |  6          |
+|  Reset            (RES)          | D12        | PORTB |  18         |
 |                                  |**Data Lines**                   |
-|  DATA BUS LINE (DB0)             | D0        | PORTD |  10         |
-|  DATA BUS LINE (DB1)             | D1        | PORTD |  11         |
-|  DATA BUS LINE (DB2)             | D2        | PORTD |  12         |
-|  DATA BUS LINE (DB3)             | D3        | PORTD |  13         |
-|  DATA BUS LINE (DB4)             | D4        | PORTD |  14         |
-|  DATA BUS LINE (DB5)             | D5        | PORTD |  15         |
-|  DATA BUS LINE (DB6)             | D6        | PORTD |  16         |
-|  DATA BUS LINE (DB7)             | D7        | PORTD |  17         |
+|  DATA BUS LINE (DB0)             | D0         | PORTD |  10         |
+|  DATA BUS LINE (DB1)             | D1         | PORTD |  11         |
+|  DATA BUS LINE (DB2)             | D2         | PORTD |  12         |
+|  DATA BUS LINE (DB3)             | D3         | PORTD |  13         |
+|  DATA BUS LINE (DB4)             | D4         | PORTD |  14         |
+|  DATA BUS LINE (DB5)             | D5         | PORTD |  15         |
+|  DATA BUS LINE (DB6)             | D6         | PORTD |  16         |
+|  DATA BUS LINE (DB7)             | D7         | PORTD |  17         |
 
 ## Example explanation
 This example highlights the ability to display several fullscreen demos as well as the splash screen for this product family
